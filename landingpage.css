@@ -1,0 +1,242 @@
+P* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .main {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow-y: hidden;
+  }
+  
+  .nav {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3vw;
+    background-color:black;
+    padding: 0 1.5rem;
+  
+  
+  }
+  
+  .nav h2 {
+    letter-spacing: 1.1px;
+    font-weight: 900;
+    font-variant: small-caps;
+    color:lightseagreen;
+  }
+  
+  .nav-part2 {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    column-gap: 3vw;
+  }
+  
+  .nav h4 a{
+    font-size: 1.3rem;
+    letter-spacing: 1.3px;
+    font-weight: 600;
+   
+    font-variant: small-caps;
+    color:lightseagreen;
+    cursor:pointer;
+  }
+  
+  .nav h4 a:hover {
+    font-weight: 900;
+    text-shadow: 1px 1px 1px #000;
+    text-decoration: none;
+    font-variant: small-caps;
+    color:lightseagreen;
+  }
+  
+  .nav i {
+    display: none;
+  }
+  .logo{
+    color:lightseagreen;
+    margin-top:50px;
+    margin-left:60px;
+    width:50px;
+    height:50px;
+    font-size:40px;
+    font-family:sans-serif;
+    text-shadow:grey;
+  }
+  
+  /* Main content space */
+  
+  .content {
+    height: calc(100vh - 70px);
+    width: 100%;
+    display: flex;
+  }
+  
+  .left {
+    width: 75%;
+    height: 100%;
+    background-color:black; 
+    padding: 4vw 7vw;
+    color:white;
+    font-family:sans-serif;
+  }
+  
+  .left h2{
+    text-transform: capitalize;
+    padding: 2vw 0;
+    letter-spacing: 3px;
+  }
+  .left span {
+    color: lightseagreen;
+  }
+  
+  .left p {
+    font-weight: 900;
+    letter-spacing: 1px;
+    line-height: 1.9vw;
+    color:white;
+    width: 80%;
+    text-align: start;
+    margin-bottom: 2.2vw;
+    font-size:1.2rem;
+  }
+  
+  .left button {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0.6vw 1.4vw;
+    background-color: lightseagreen;
+    color: #fff;
+    text-shadow: 1px 1px 1rem red;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 0px 1rem gray;
+    filter: drop-shadow(0 0 10px #000);
+    margin-top:90px;
+  }
+  
+  .right {
+    width: 75%;
+    height: 100%;
+  }
+  .right img {
+    width: 100%;
+    height: 100%;
+    margin-bottom:50px;
+  }
+  .courses{
+    font-size:20px;
+    font-family:sans-serif;
+    color:white;
+    width:100%;
+    height:100vh;
+    background-color:black;
+    text-align:center;
+
+  }
+  .left1{
+    text-align:left;
+    justify-content: space-between;
+  }
+  .p{
+    font-size:40px;
+    margin-top:30px;
+    margin-left:50px;
+    font-family:sans-serif;
+    color:lightseagreen;
+  }
+  .align{
+    margin-left:30px;
+    font-family:sans-serif;
+    font-size:40px;
+    color:lightseagreen;
+    text-align:center;
+    margin-top:50px;
+    margin-left:40px;
+  }
+.center{
+    justify-content:space-around;
+    margin-left:50px;
+}
+.contact{
+    background-color:black;
+}
+table{
+    margin-top:30px;
+}
+  @media (max-width: 600px) {
+    .nav h2 {
+      font-size: 1.8rem;
+    }
+  
+    .nav h4 {
+      font-size: 1.1rem;
+      display: none;
+    }
+  
+    .nav i {
+      display: initial;
+      font-size: 1.8rem;
+      font-weight: 800;
+    }
+  
+    /* Main Content */
+  
+    .content {
+      height: calc(100vh - 70px);
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .left {
+      width: 100%;
+      height: 50%;
+      /* background-color: aqua; */
+      padding: 3vw 3vw;
+    }
+  
+    .left h1 {
+      text-transform: capitalize;
+      font-size: 3.3vw;
+      padding: 2vw 0;
+      letter-spacing: 3px;
+    }
+  
+    .left p {
+      font-weight: 600;
+      letter-spacing: 1px;
+      line-height: 6vw;
+      color: #666;
+      width: 80%;
+      text-align: start;
+      margin-bottom: 2.5vw;
+    }
+  
+    .left button {
+      font-size: 3.5vw;
+      font-weight: 600;
+      padding: 0.6vw 1.4vw;
+      background-color: lightseagreen;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      box-shadow: 0px 0px 1px 2px lightseagreen;
+      margin-top: 1rem;
+    }
+  
+    .right {
+      width: 100%;
+      height: 100%;
+    }
+    .right img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
